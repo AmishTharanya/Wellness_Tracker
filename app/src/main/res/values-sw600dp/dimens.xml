@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Larger spacing and text for tablets -->
+    <dimen name="text_3xl">34sp</dimen>
+    <dimen name="text_xl">22sp</dimen>
+    <dimen name="text_base">18sp</dimen>
+    <dimen name="text_sm">14sp</dimen>
+
+    <dimen name="spacing_xl">28dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_sm">10dp</dimen>
+
+    <dimen name="button_height_md">56dp</dimen>
+    <dimen name="radius_xl">24dp</dimen>
+    <dimen name="radius_md">16dp</dimen>
+    <dimen name="progress_height_md">14dp</dimen>
+</resources>
+
+

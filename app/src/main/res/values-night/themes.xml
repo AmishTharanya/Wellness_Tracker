@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Dark theme -->
+    <style name="Base.Theme.WellnessTracker" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_blue_light</item>
+        <item name="colorPrimaryDark">@color/primary_blue</item>
+        <item name="colorAccent">@color/primary_blue_light</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:statusBarColor">@color/background_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.WellnessTracker" parent="Base.Theme.WellnessTracker" />
+    
+    <!-- AppTheme Dark -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_blue_light</item>
+        <item name="colorPrimaryDark">@color/primary_blue</item>
+        <item name="colorAccent">@color/primary_blue_light</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:statusBarColor">@color/background_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    
+    <!-- Card Style -->
+    <style name="CardModern">
+        <item name="cardBackgroundColor">@color/card_dark</item>
+        <item name="cardCornerRadius">@dimen/radius_xl</item>
+        <item name="cardElevation">@dimen/elevation_lg</item>
+        <item name="contentPadding">@dimen/spacing_xl</item>
+    </style>
+    
+    <!-- Button Styles -->
+    <style name="ButtonPrimary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/primary_blue_light</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="cornerRadius">@dimen/radius_xl</item>
+        <item name="android:textSize">@dimen/text_base</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minHeight">@dimen/button_height_md</item>
+        <item name="elevation">@dimen/elevation_md</item>
+    </style>
+    
+    <style name="ButtonOutline" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/border_dark</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="cornerRadius">@dimen/radius_xl</item>
+        <item name="android:textColor">@color/text_primary_dark</item>
+        <item name="android:textSize">@dimen/text_base</item>
+        <item name="android:minHeight">@dimen/button_height_md</item>
+    </style>
+    
+    <style name="ButtonQuickAdd" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/primary_blue_light</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="cornerRadius">@dimen/radius_xl</item>
+        <item name="android:textColor">@color/text_primary_dark</item>
+        <item name="android:minHeight">80dp</item>
+    </style>
+    
+    <!-- Text Styles -->
+    <style name="TextTitle">
+        <item name="android:textSize">@dimen/text_3xl</item>
+        <item name="android:textColor">@color/primary_blue_light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="TextSubtitle">
+        <item name="android:textSize">@dimen/text_base</item>
+        <item name="android:textColor">@color/text_secondary_dark</item>
+    </style>
+    
+    <style name="TextHeading">
+        <item name="android:textSize">@dimen/text_xl</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary_dark</item>
+    </style>
+    
+    <style name="TextBody">
+        <item name="android:textSize">@dimen/text_base</item>
+        <item name="android:textColor">@color/text_primary_dark</item>
+    </style>
+    
+    <style name="TextCaption">
+        <item name="android:textSize">@dimen/text_sm</item>
+        <item name="android:textColor">@color/text_secondary_dark</item>
+    </style>
+    
+    <!-- Input Styles -->
+    <style name="InputField" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">@dimen/radius_md</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/radius_md</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/radius_md</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/radius_md</item>
+        <item name="boxStrokeColor">@color/border_dark</item>
+        <item name="hintTextColor">@color/text_secondary_dark</item>
+    </style>
+    
+    <!-- Badge Style -->
+    <style name="Badge">
+        <item name="android:background">@drawable/badge_background</item>
+        <item name="android:paddingStart">@dimen/spacing_md</item>
+        <item name="android:paddingEnd">@dimen/spacing_md</item>
+        <item name="android:paddingTop">@dimen/spacing_sm</item>
+        <item name="android:paddingBottom">@dimen/spacing_sm</item>
+        <item name="android:textSize">@dimen/text_sm</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <!-- Progress Bar Style -->
+    <style name="ProgressBarHorizontal" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_gradient</item>
+        <item name="android:minHeight">@dimen/progress_height_md</item>
+        <item name="android:maxHeight">@dimen/progress_height_md</item>
+    </style>
+    
+    <!-- Bottom Navigation Style -->
+    <style name="BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemIconTint">@color/bottom_nav_color</item>
+        <item name="itemTextColor">@color/bottom_nav_color</item>
+        <item name="android:background">@color/nav_bar_background_dark</item>
+        <item name="elevation">@dimen/elevation_xl</item>
+    </style>
+    
+    <!-- Dialog Style -->
+    <style name="DialogTheme" parent="Theme.MaterialComponents.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+        <item name="colorPrimary">@color/primary_blue_light</item>
+    </style>
+    
+    <!-- Chip Style for Mood Selection -->
+    <style name="MoodChip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipCornerRadius">@dimen/radius_full</item>
+        <item name="chipBackgroundColor">@color/primary_blue</item>
+        <item name="android:textColor">@color/text_primary_dark</item>
+        <item name="chipStrokeWidth">0dp</item>
+    </style>
+</resources>
